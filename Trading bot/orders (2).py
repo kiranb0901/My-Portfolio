@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 IST = pytz.timezone("Asia/Kolkata")
 
 # Google Sheet Setup
-scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
+scope = ["Confidential"]
 creds = ServiceAccountCredentials.from_json_keyfile_name("gcreds.json", scope)
 gc = gspread.authorize(creds)
 sheet = gc.open("Trade Alerts DB").sheet1
