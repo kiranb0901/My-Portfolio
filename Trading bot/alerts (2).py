@@ -7,8 +7,8 @@ import pytz
 
 IST = pytz.timezone("Asia/Kolkata")
 
-TELEGRAM_CHAT_IDS = ["1377602734", "724546690", "1097122255", "964078358", "966351905"]
-TELEGRAM_TOKEN = "8187057037:AAEpXhQuo-NjPMcmZhdkufmqbyPzVRPYZh0"
+TELEGRAM_CHAT_IDS = ["Confidential"]
+TELEGRAM_TOKEN = "Confidential"
 ALERTS_FILE = "alerts.json"
 
 def send_telegram_alert(msg):
